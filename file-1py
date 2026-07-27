@@ -1,0 +1,16 @@
+class abu:
+    def __init__(self):
+        self.abubkar = []
+    def ali(self):
+        self.abubkar.append(int(input("Enter Marks here: ")))
+        self.abubkar.append(int(input("Enter Marks here: ")))
+        self.abubkar.append(int(input("Enter Marks here: ")))
+        self.abubkar.append(int(input("Enter Marks here: ")))
+        self.abubkar.append(int(input("Enter Marks here: ")))
+        self.abubkar.append(int(input("Enter Marks here: ")))
+    def khan(self):
+        self.abubkar.sort()
+        print("Sorted Marks:", self.abubkar)
+manager = abu()
+manager.ali()
+manager.khan()
